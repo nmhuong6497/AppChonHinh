@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".ListImageActivity2">
+
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:background="#f20"
+            android:text="View 1"/>
+
+        <TextView
+            android:layout_span="3"
+            android:background="#2196F3"
+            android:text="View 2"/>
+
+        <TextView
+            android:layout_span="3"
+            android:background="#FFC107"
+            android:text="View 3"/>
+
+        <TextView
+            android:layout_span="3"
+            android:background="#FFC107"
+            android:text="View 4"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_span="4"
+            android:background="#00BCD4"
+            android:text="View 5"/>
+
+        <TextView
+            android:layout_span="4"
+            android:background="#E91E63"
+            android:text="View 6"/>
+
+        <TextView
+            android:layout_span="4"
+            android:background="#009688"
+            android:text="View 7"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_span="6"
+            android:background="#FFC107"
+            android:text="View 8"/>
+
+        <TextView
+            android:layout_span="6"
+            android:background="#3F51B5"
+            android:text="View 9"/>
+    </TableRow>
+
+</TableLayout>
